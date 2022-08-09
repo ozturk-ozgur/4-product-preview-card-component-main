@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.card-container {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card-container > div {
+  height: 100%;
+}
+
+.card-foto img {
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.card-main {
+  padding: 2rem;
+}
+
+.card-main-produkt {
+  margin-bottom: 1rem;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+
+.card-main-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.7rem;
+  padding-right: 4rem;
+  color: hsl(212, 21%, 14%);
+}
+
+.card-main-text {
+  padding-right: 3.3rem;
+  line-height: 1.5em;
+  margin-bottom: 1.5rem;
+}
+.card-main-Newprice {
+  color: hsl(158, 36%, 37%);
+  font-size: 2rem;
+  font-weight: 800;
+  display: inline-block;
+}
+
+.card-main-oldPrice {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.card-main-btn {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  padding: 10px 35px;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.card-main-btn:hover {
+  background-color:hsl(155, 44%, 32%) ;
+}
+
+.card-main-btn img {
+  margin-right: 0.7rem;
+}
+
+
+
